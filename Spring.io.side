@@ -1,0 +1,386 @@
+{
+  "id": "32317eca-3b8a-4c54-9c7b-12dee0479df0",
+  "version": "2.0",
+  "name": "Spring.io",
+  "url": "https://spring.io",
+  "tests": [{
+    "id": "0305716f-5323-486d-86c1-ecfeb7f8af48",
+    "name": "File download",
+    "commands": [{
+      "id": "c88a6ee0-a46f-4b86-9d97-c078c65fc973",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d59d0e3a-7a04-441f-87af-13754110fd00",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1875x1042",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1fda620-35dc-42ae-896f-f90d7e5c5235",
+      "comment": "",
+      "command": "click",
+      "target": "name=&lpos=apps_scodevmw : 38",
+      "targets": [
+        ["name=&lpos=apps_scodevmw : 38", "name"],
+        ["css=.is-spring:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Quickstart')])[2]", "xpath:link"],
+        ["xpath=//a[@name='&lpos=apps_scodevmw : 38']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/quickstart')])[2]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0058345f-446a-4992-88c9-2eab85de8044",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=start.spring.io",
+      "targets": [
+        ["linkText=start.spring.io", "linkText"],
+        ["name=&lpos=apps_scodevmw : 43", "name"],
+        ["css=p:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'start.spring.io')]", "xpath:link"],
+        ["xpath=//a[@name='&lpos=apps_scodevmw : 43']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/div[2]/div/div[2]/p/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://start.spring.io']", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/div[2]/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'start.spring.io')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4b04598-90d3-439a-9d60-0c1436f2cb22",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-group",
+      "targets": [
+        ["id=input-group", "id"],
+        ["css=#input-group", "css:finder"],
+        ["xpath=//input[@id='input-group']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed707feb-755a-4e30-9226-0d93172cb242",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-group",
+      "targets": [
+        ["id=input-group", "id"],
+        ["css=#input-group", "css:finder"],
+        ["xpath=//input[@id='input-group']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c387a183-27cc-469d-b7e3-86c89d219d88",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-group",
+      "targets": [
+        ["id=input-group", "id"],
+        ["css=#input-group", "css:finder"],
+        ["xpath=//input[@id='input-group']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9acf678d-afcb-439e-9766-d912b66fc092",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-group",
+      "targets": [
+        ["id=input-group", "id"],
+        ["css=#input-group", "css:finder"],
+        ["xpath=//input[@id='input-group']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c4a3f6e-6081-4047-b4a3-1c915951f266",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-group",
+      "targets": [
+        ["id=input-group", "id"],
+        ["css=#input-group", "css:finder"],
+        ["xpath=//input[@id='input-group']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "com.uiu"
+    }, {
+      "id": "613dc838-a084-4df4-bced-bd11ed86a54f",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-artifact",
+      "targets": [
+        ["id=input-artifact", "id"],
+        ["css=#input-artifact", "css:finder"],
+        ["xpath=//input[@id='input-artifact']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a32e6dc-ffbe-40c3-8db1-e3f43d57b41e",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-artifact",
+      "targets": [
+        ["id=input-artifact", "id"],
+        ["css=#input-artifact", "css:finder"],
+        ["xpath=//input[@id='input-artifact']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "296d47c9-a0d2-46c2-82ab-0a34726dde6b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=input-artifact",
+      "targets": [
+        ["id=input-artifact", "id"],
+        ["css=#input-artifact", "css:finder"],
+        ["xpath=//input[@id='input-artifact']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71f1bf6a-ca0c-481b-8f44-fe75dd12f721",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-artifact",
+      "targets": [
+        ["id=input-artifact", "id"],
+        ["css=#input-artifact", "css:finder"],
+        ["xpath=//input[@id='input-artifact']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "app"
+    }, {
+      "id": "2624f770-aab6-4963-9484-5e56d23d923b",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-description",
+      "targets": [
+        ["id=input-description", "id"],
+        ["css=#input-description", "css:finder"],
+        ["xpath=//input[@id='input-description']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fa0ec7b-55c8-4c04-89ab-893a2382b14d",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-description",
+      "targets": [
+        ["id=input-description", "id"],
+        ["css=#input-description", "css:finder"],
+        ["xpath=//input[@id='input-description']", "xpath:attributes"],
+        ["xpath=//div[@id='main']/form/div/div/div/div[3]/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Demo APP For selenium Testing"
+    }, {
+      "id": "2ab50e5e-96ec-4b0d-b71d-7fb90689d3a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#explore-dependencies > .button-content > span:nth-child(1)",
+      "targets": [
+        ["css=#explore-dependencies > .button-content > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='explore-dependencies']/span/span", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e69943d-4d4b-47b0-951f-9b4591157e03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected > strong",
+      "targets": [
+        ["css=.selected > strong", "css:finder"],
+        ["xpath=//div[@id='main']/form/div[3]/ul/li[3]/a/strong", "xpath:idRelative"],
+        ["xpath=//li[3]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Spring Boot DevTools')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "acd3caae-f3fb-4d01-85a4-5937a3126274",
+      "comment": "",
+      "command": "click",
+      "target": "css=#explore-dependencies > .button-content > span:nth-child(1)",
+      "targets": [
+        ["css=#explore-dependencies > .button-content > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='explore-dependencies']/span/span", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "869f6c81-08ba-4a1c-95c5-b1c6a6144ec8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected > span",
+      "targets": [
+        ["css=.selected > span", "css:finder"],
+        ["xpath=//div[@id='main']/form/div[3]/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Java annotation library which helps to reduce boilerplate code.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12568b09-4396-4269-8382-818a59f7b6f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop-only:nth-child(1)",
+      "targets": [
+        ["css=.desktop-only:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='explore-dependencies']/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ee37094-46c2-46b2-9bff-b2830ecebee1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//div[@id='main']/form/div[3]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[31]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc4f267a-6850-4c62-a7c1-bea091606ca2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#explore-dependencies > .button-content > span:nth-child(1)",
+      "targets": [
+        ["css=#explore-dependencies > .button-content > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='explore-dependencies']/span/span", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "553a56d9-7fce-4938-a7dd-62a6ed1e4cd1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected > span",
+      "targets": [
+        ["css=.selected > span", "css:finder"],
+        ["xpath=//div[@id='main']/form/div[3]/ul/li[6]/a/span", "xpath:idRelative"],
+        ["xpath=//li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2bbf1f0-1177-4be1-85a8-2449c0feaa55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.desktop-only:nth-child(1)",
+      "targets": [
+        ["css=.desktop-only:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='explore-dependencies']/span/span/span", "xpath:idRelative"],
+        ["xpath=//span/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed40b3c1-aba9-4eac-bb64-4c97846d9021",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected > strong",
+      "targets": [
+        ["css=.selected > strong", "css:finder"],
+        ["xpath=//div[@id='main']/form/div[3]/ul/li[8]/a/strong", "xpath:idRelative"],
+        ["xpath=//li[8]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Rest Repositories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad5fb4c7-788d-4cfb-a27a-faa3c0bee2af",
+      "comment": "",
+      "command": "click",
+      "target": "css=#explore-dependencies > .button-content > span:nth-child(1)",
+      "targets": [
+        ["css=#explore-dependencies > .button-content > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='explore-dependencies']/span/span", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/div/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04d411fa-2ca0-44b3-8c27-ce9c6b6c9ba7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.selected",
+      "targets": [
+        ["css=.selected", "css:finder"],
+        ["xpath=//div[@id='main']/form/div[3]/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[36]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f618d1fd-8fc7-4133-8024-8e38b521eb0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fade-enter-done:nth-child(3) .icon-remove",
+      "targets": [
+        ["css=.fade-enter-done:nth-child(3) .icon-remove", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0c03ba0-2ca3-432f-8ce8-119288d46a53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-content > .icon-moon > path",
+      "targets": [
+        ["css=.button-content > .icon-moon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "de5f1e1e-e4e6-455f-9d64-24c7d6fa042b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-content > .icon-sun > path",
+      "targets": [
+        ["css=.button-content > .icon-sun > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9e4e86e-1e42-406d-b742-3dffa92f1618",
+      "comment": "",
+      "command": "click",
+      "target": "css=#generate-project > .button-content > span:nth-child(1)",
+      "targets": [
+        ["css=#generate-project > .button-content > span:nth-child(1)", "css:finder"],
+        ["xpath=//button[@id='generate-project']/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fa6d0443-cd43-4a5c-b1a8-cb1c523ff5b7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0305716f-5323-486d-86c1-ecfeb7f8af48"]
+  }],
+  "urls": ["https://spring.io/"],
+  "plugins": []
+}
